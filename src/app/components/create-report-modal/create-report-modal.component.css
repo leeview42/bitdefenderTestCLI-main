@@ -1,0 +1,140 @@
+.modal-body {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  justify-content: flex-start;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  left: 5%;
+}
+
+.modal-dialog {
+  margin-left: 0;
+}
+
+.title {
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.702);
+  display: inline-block;
+  padding-left: 6%;
+  margin-top: 2%;
+}
+
+.closeButton {
+  background-color: white;
+  border-width: 0;
+}
+
+.flex-containerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.flex-containerColumn {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.formLabel {
+  white-space: nowrap;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.702);
+}
+
+.formDropdown {
+}
+
+.formDropdownBtn {
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.902);
+  background-color: transparent;
+  width: 16rem;
+  height: 2rem;
+  border-width: 1px;
+  margin: 5px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.122);
+}
+
+.dropdown-toggle::after {
+  margin-left: 8em;
+  font-size: 15px;
+  margin-top: 1em;
+}
+
+.formInput {
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  width: 16rem;
+  height: 2rem;
+  border-width: 1px;
+  margin: 5px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.122);
+}
+
+.subtitleForm {
+  font-family: Montserrat;
+  margin-top: 20px;
+  margin-bottom: 1.2rem;
+}
+
+.formRadioButton {
+  margin-right: 1rem;
+}
+
+.form-check {
+  padding-left: 0;
+}
+
+.saveButton {
+  background-color: rgba(2, 126, 230, 1);
+  border-radius: 30px;
+  border-width: 0;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  width: 7rem;
+  height: 2rem;
+}
+
+.cancelButton {
+  border-radius: 30px;
+  background-color: transparent;
+  border-width: 1px;
+  color: black;
+  font-family: Montserrat;
+  font-size: 14px;
+  width: 7rem;
+  height: 2rem;
+}
+
+.dropdownContent {
+  font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,0.902);
+}

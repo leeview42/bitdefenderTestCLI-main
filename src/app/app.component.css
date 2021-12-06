@@ -1,0 +1,193 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+}
+
+.navbarHeader {
+  overflow: visible;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: visible;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.902);
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: inherit;
+  font-family: Montserrat;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.122);
+  margin-right: 2rem;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  background-color: #e6e6e6;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  float: none !important;
+  color: black !important;
+  padding: 12px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+  text-align: left !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.iconBtn {
+  border: none;
+  background-color: white;
+  padding-right: 6px;
+}
+
+.iconBtn:hover {
+  background-color: #e6e6e6;
+}
+
+.flexNavbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexSidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(24, 31, 44, 1);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.SpacerSidebar {
+  min-height: 4rem;
+}
+
+.sideMenuButtonText {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Roboto;
+}
+
+.SideNavButton {
+  background-color: rgba(24, 31, 44, 1);
+  width: 100%;
+  border-color: rgba(24, 31, 44, 1);
+  border-style: solid;
+  padding: 5px;
+}
+
+.reportTextHeader {
+  opacity: 0.7;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.reportTextSubHeader {
+  opacity: 0.7;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: 1rem;
+}
+
+.createReportButton {
+  background-color: rgba(2, 126, 230, 1);
+  border-radius: 30px;
+  border-width: 0;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  width: 10rem;
+  height: 2rem;
+}
+
+.title {
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.702);
+  display: inline-block;
+  padding-left: 6%;
+  margin-top: 3%;
+}

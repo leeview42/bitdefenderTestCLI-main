@@ -1,0 +1,14 @@
+.custom-class .modal-dialog {
+  max-width: 95%;
+  height: 100%;
+  margin-right: 0;
+}
+.custom-class .modal-content {
+  height: 95%;
+  width: 100%;
+  border-width: 0;
+}
+
+.custom-class .modal-header {
+  width: 100%;
+}

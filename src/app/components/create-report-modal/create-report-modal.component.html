@@ -1,0 +1,170 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <title class="title">Create Report</title>
+      <button class="closeButton" (click)="modal.dismiss('Cross click')">
+        <img src="assets/icons/ExitIcon.svg" />
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="flex-containerColumn">
+        <span class="subtitleForm">Details</span>
+
+        <div class="flex-containerRow">
+          <label class="formLabel">Type</label>
+          <div ngbDropdown class="formDropdown">
+            <button
+              class="formDropdownBtn"
+              id="dropdownBasic1"
+              ngbDropdownToggle
+            >
+              Toggle dropdown
+            </button>
+            <div class="dropdownContent" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button ngbDropdownItem>Executive Summary</button>
+              <button ngbDropdownItem>Another Action</button>
+              <button ngbDropdownItem>Something else is here</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-containerRow">
+          <label class="formLabel">Company</label>
+          <div ngbDropdown class="formDropdown">
+            <button
+              class="formDropdownBtn"
+              id="dropdownBasic1"
+              ngbDropdownToggle
+            >
+              Toggle dropdown
+            </button>
+            <div class="dropdownContent" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button ngbDropdownItem>Action - 1</button>
+              <button ngbDropdownItem>Another Action</button>
+              <button ngbDropdownItem>Something else is here</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-containerRow">
+          <label class="formLabel">Name</label>
+          <input class="formInput" placeholder="Placeholder" />
+        </div>
+        <span class="subtitleForm">Settings</span>
+        <div class="form-check">
+          <input
+            mdbRadio
+            class="formRadioButton"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="formLabel"> Default radio </label>
+        </div>
+        <div class="form-check">
+          <input
+            mdbRadio
+            class="formRadioButton"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+          />
+          <label class="formLabel"> Default checked radio </label>
+        </div>
+        <div class="flex-containerRow">
+          <label class="formLabel">Recurrence</label>
+          <div ngbDropdown class="formDropdown">
+            <button
+              class="formDropdownBtn"
+              id="dropdownBasic1"
+              ngbDropdownToggle
+            >
+              Toggle dropdown
+            </button>
+            <div class="dropdownContent" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button ngbDropdownItem>Action - 1</button>
+              <button ngbDropdownItem>Another Action</button>
+              <button ngbDropdownItem>Something else is here</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex-containerRow">
+          <label class="formLabel">On</label>
+          <div ngbDropdown class="formDropdown">
+            <button
+              class="formDropdownBtn"
+              id="dropdownBasic1"
+              ngbDropdownToggle
+            >
+              Toggle dropdown
+            </button>
+            <div class="dropdownContent" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button ngbDropdownItem>Action - 1</button>
+              <button ngbDropdownItem>Another Action</button>
+              <button ngbDropdownItem>Something else is here</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex-containerRow">
+          <label class="formLabel">Reporting Interval</label>
+          <div ngbDropdown class="formDropdown">
+            <button
+              class="formDropdownBtn"
+              id="dropdownBasic1"
+              ngbDropdownToggle
+            >
+              Toggle dropdown
+            </button>
+            <div class="dropdownContent" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button ngbDropdownItem>Action - 1</button>
+              <button ngbDropdownItem>Another Action</button>
+              <button ngbDropdownItem>Something else is here</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex-containerRow">
+          <label class="formLabel">Attach files</label>
+          <div class="flex-containerColumn">
+            <div class="form-check">
+              <input
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="formLabel"> Dashboard PDF </label>
+            </div>
+            <div class="form-check">
+              <input
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckChecked"
+                [checked]="true"
+              />
+              <label class="formLabel"> Details as CSV </label>
+            </div>
+            <div class="form-check">
+              <input
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="formLabel"> Archive files </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="saveButton">SAVE</button>
+        <button class="cancelButton" (click)="modal.dismiss('Cross click')">
+          CANCEL
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
