@@ -8,4 +8,6 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CreateReportModalComponent {
   constructor(public modal: NgbActiveModal) {}
+
+
 }
