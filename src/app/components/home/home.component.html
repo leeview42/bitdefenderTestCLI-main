@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <body>
+    <div class="navbarHeader">
+      <div class="flexNavbar">
+        <div class="dropdown">
+          <button class="dropbtn" (click)="onClick()">
+            Welcome, John Smith
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <button class="iconBtn">
+          <img src="assets/icons/GiftIcon.svg" />
+        </button>
+        <button class="iconBtn">
+          <img src="assets/icons/HelpIcon.svg" />
+        </button>
+        <button class="iconBtn">
+          <img src="assets/icons/NotificationIcon.svg" />
+        </button>
+      </div>
+    </div>
+
+    <div class="sidenav">
+      <div class="flexSidebar">
+        <img src="assets/icons/LogoIcon.svg" class="logoIcon" />
+        <div class="SpacerSidebar"></div>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/DashboardIcon.svg" />
+          <span class="sideMenuButtonText">Dashboard</span>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/IncidentsIcon.svg" />
+          <span class="sideMenuButtonText">Incidents</span>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/NetworkIcon.svg" />
+          <span class="sideMenuButtonText">Network</span>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/RiskManagementIcon.svg" />
+          <div class="flexSidebar">
+            <span class="sideMenuButtonText">Risk </span>
+            <span class="sideMenuButtonText">Management </span>
+          </div>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/PoliciesIcon.svg" />
+          <span class="sideMenuButtonText">Policies</span>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/ReportsIcon.svg" />
+          <span class="sideMenuButtonText">Reports</span>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/QuarantineIcon.svg" />
+          <span class="sideMenuButtonText">Quarantine</span>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/CompaniesIcon.svg" />
+          <span class="sideMenuButtonText">Companies</span>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/AccountsIcon.svg" />
+          <span class="sideMenuButtonText">Accounts</span>
+        </button>
+
+        <button class="SideNavButton">
+          <div class="flexSidebar">
+            <img src="assets/icons/SandBoxAnalyzerIcon.svg" />
+            <span class="sideMenuButtonText">Sandbox </span>
+            <span class="sideMenuButtonText">Analyzer</span>
+          </div>
+        </button>
+
+        <button class="SideNavButton">
+          <div class="flexSidebar">
+            <img src="assets/icons/EmailSecurityIcon.svg" />
+            <span class="sideMenuButtonText">Email </span>
+            <span class="sideMenuButtonText">Security</span>
+          </div>
+        </button>
+
+        <button class="SideNavButton">
+          <img src="assets/icons/ConfigurationIcon.svg" />
+          <span class="sideMenuButtonText">Configuration</span>
+        </button>
+      </div>
+    </div>
+    <title class="title">Page Title</title>
+    <div class="flexColumn">
+      <img src="assets/images/Rocket.svg" />
+      <span class="reportTextHeader">Start creating reports</span>
+      <span class="reportTextSubHeader"
+        >You don’t have any reports defined yet</span
+      >
+      <button class="createReportButton" (click)="onOpen()">
+        CREATE REPORT
+      </button>
+    </div>
+  </body>
+</html>
